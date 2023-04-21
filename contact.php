@@ -16,7 +16,7 @@ $to = "adityatraid09@gmail.com";
 
 $subject = "Mail From Portfolio";
 
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n  Mobile number = " . $number . "\r\n 
+$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n  Number = " . $number . "\r\n 
 Message =" . $message;
 
 $headers = "From: noreply@yoursite.com" . "\r\n" .

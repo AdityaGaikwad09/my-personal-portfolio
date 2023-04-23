@@ -297,7 +297,7 @@
       </div>
       <br>
       <br>
-      <form action="contact.php" method="post">
+      <form action="https://formspree.io/f/xayzadjr" method="POST">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Name" required style="background-color: rgba(255, 255, 255, 0.1); color: #18d26e; font-weight: bold;"">
@@ -338,22 +338,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script>
-    function sendEmail(){
-      Email.send({
-    Host : "smtp.gmail.com",
-    Username : "adityatraid09@gmail.com",
-    Password : "Highmylife420@",
-    To : 'addyofficial09@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "new form enwui",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-    }
-  </script>
+  
+  
 
 </body>
 
